@@ -1,0 +1,26 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/react/15.5.4/react.min.js"></script>
+<script src="https://cdn.staticfile.org/react/15.5.4/react-dom.min.js"></script>
+<script src="https://npmcdn.com/react-router@3.0.2/umd/ReactRouter.min.js"></script>
+<script src="https://cdn.staticfile.org/babel-standalone/6.24.0/babel.min.js"></script>
+<!-- Axios是用于浏览器和Node.js通信的HTTP客户端; -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<!-- 引入 -->
+<script type="text/babel" src="main.jsx"></script>
+</head>
+
+<body>
+
+    <div id="home" class="container"></div>
+
+    <script type="text/babel">
+      ReactDOM.render( <Home /> ,document.getElementById('home'));
+    </script>
+   
+  
+</body>
+
+</html>
